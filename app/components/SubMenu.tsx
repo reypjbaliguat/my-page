@@ -1,7 +1,12 @@
 import React from 'react';
 
 function SubMenu() {
-    return <div className="flex flex-col w-60 h-full p-3"> qwewqe </div>;
+    return (
+        <div className="w-full h-full p-3 col-span-4 md:col-span-3">
+            {' '}
+            Sub Menu{' '}
+        </div>
+    );
 }
 
 export default SubMenu;
