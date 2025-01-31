@@ -1,10 +1,11 @@
+import Header from './components/Header';
+import Container from './components/Container';
+
 export default function Home() {
     return (
-        <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit
-            quasi eligendi vitae ipsum nulla deleniti, possimus dignissimos
-            natus repudiandae, nemo voluptatum sunt quos nesciunt illo dolore
-            corporis sapiente animi illum!
+        <div className="flex flex-col w-screen h-screen bg-neutral-950">
+            <Header />
+            <Container />
         </div>
     );
 }
